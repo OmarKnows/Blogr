@@ -1,0 +1,30 @@
+.footer {
+	background-color: hsl(240, 10%, 16%);
+	color: hsl(240, 2%, 79%);
+
+	font-family: 'Overpass';
+	font-weight: 500;
+
+	display: grid;
+	justify-content: space-evenly;
+	grid-template-columns: auto auto auto auto;
+	row-gap: 0.5rem;
+
+	padding: 3rem 0;
+
+	border-radius: 0 100px 0 0;
+}
+
+.footer-title {
+	color: hsl(0, 0%, 100%);
+	font-weight: 700;
+	margin-bottom: 1rem;
+}
+
+.footer-item {
+	cursor: pointer;
+}
+
+.logo {
+	grid-row: 1 / 7;
+}
