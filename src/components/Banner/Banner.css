@@ -1,0 +1,38 @@
+.container {
+	background-image: url(../../assets/bg-pattern-intro-desktop.svg),
+		linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+	height: 500px;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	border-radius: 0 0 0 100px;
+}
+
+.banner-items {
+	z-index: 1;
+	align-self: center;
+	text-align: center;
+}
+
+.background {
+	scale: 5;
+}
+
+.title {
+	font-family: 'Overpass', sans-serif;
+	font-weight: 700;
+	font-size: 78px;
+	color: hsl(0, 0%, 100%);
+}
+
+.sub-title {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	font-size: 25px;
+	color: hsl(0, 0%, 100%);
+}
+
+.flex-box {
+	display: flex;
+	justify-content: center;
+}
