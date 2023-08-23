@@ -1,0 +1,40 @@
+.header {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+	position: fixed;
+	margin-top: 2rem;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+.logo {
+	margin-right: 4rem;
+}
+
+.login {
+	color: hsl(0, 0%, 100%);
+	font-family: 'Ubuntu';
+	font-weight: 300;
+	padding: 12px 10px;
+	margin: 0.5rem;
+	cursor: pointer;
+}
+
+.header-item {
+	color: hsl(0, 0%, 100%);
+	font-family: 'Ubuntu';
+	font-weight: 300;
+	margin: 0.5rem 3rem 0 0;
+	cursor: pointer;
+}
+
+.header-item img {
+	margin-left: 0.5rem;
+}
+
+.flex-box {
+	display: flex;
+}
