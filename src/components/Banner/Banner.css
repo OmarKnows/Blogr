@@ -1,11 +1,16 @@
-.container {
+.banner {
 	background-image: url(../../assets/bg-pattern-intro-desktop.svg),
 		linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
-	height: 500px;
+	background-position: top, left, right, bottom;
+	border-radius: 0 0 0 100px;
+	padding-top: 2rem;
+}
+
+.container {
+	height: 450px;
 	overflow: hidden;
 	display: flex;
 	justify-content: center;
-	border-radius: 0 0 0 100px;
 }
 
 .banner-items {

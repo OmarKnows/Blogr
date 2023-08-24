@@ -1,9 +1,11 @@
 import background from '../../assets/bg-pattern-intro-desktop.svg';
 import './Banner.css';
 import '../../App.css';
+import Header from '../Header/Header';
 const Banner = () => {
 	return (
-		<div>
+		<div className='banner'>
+			<Header />
 			<div className='container'>
 				{/* <img className='background' src={background} alt='background' /> */}
 				<div className='banner-items'>
