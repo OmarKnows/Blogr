@@ -1,6 +1,5 @@
 .banner {
-	background-image: url(../../assets/bg-pattern-intro-desktop.svg),
-		linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+	background-image: linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
 	background-position: top, left, right, bottom;
 	border-radius: 0 0 0 100px;
 	padding-top: 2rem;
@@ -20,7 +19,6 @@
 }
 
 .background {
-	scale: 5;
 }
 
 .title {

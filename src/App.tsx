@@ -1,14 +1,17 @@
 import Banner from './components/Banner/Banner';
 import Footer from './components/Footer/Footer';
 import illustration1 from './assets/illustration-editor-desktop.svg';
+import illustration2 from './assets/illustration-phones.svg';
+import illustration3 from './assets/bg-pattern-circles.svg';
 
 function App() {
 	return (
 		<>
 			<Banner />
 
+			{/* section 1 */}
 			<div className='title-one'>Design for the future</div>
-			<div className='grid-container'>
+			<div className='section-one'>
 				<div className='p-container'>
 					<div>
 						<div className='p-title mt-4'>Introducing an extensible editor</div>
@@ -28,10 +31,25 @@ function App() {
 						</p>
 					</div>
 				</div>
-				<div className='illustration-1'>
-					<img src={illustration1} alt='' />
+				<div className='ill-1'>
+					<img src={illustration1} />
 				</div>
 			</div>
+
+			{/* section 2 */}
+			<div className='section-two'>
+				<div>
+					<img className='ill-3' src={illustration3} />
+				</div>
+				<div>
+					<div className='title-two'>State of the Art Infratructure</div>
+					<p className='p-two'>
+						With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity.
+						This ensures your site will load instantly, no matter where your readers are, keeping your site competetive.
+					</p>
+				</div>
+			</div>
+			<img className='ill-2' src={illustration2} />
 
 			<Footer />
 		</>

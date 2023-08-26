@@ -7,8 +7,9 @@ const Banner = () => {
 		<div className='banner'>
 			<Header />
 			<div className='container'>
-				{/* <img className='background' src={background} alt='background' /> */}
 				<div className='banner-items'>
+					{/* <img className='background' src={background} alt='background' /> */}
+
 					<div className='title'>A modern publishing platform</div>
 					<div className='sub-title'> Grow your audience and build your online brand</div>
 					<div className='flex-box'>
