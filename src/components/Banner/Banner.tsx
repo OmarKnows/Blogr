@@ -1,4 +1,3 @@
-import background from '../../assets/bg-pattern-intro-desktop.svg';
 import './Banner.css';
 import '../../App.css';
 import Header from '../Header/Header';
